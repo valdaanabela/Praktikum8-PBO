@@ -33,10 +33,3 @@ Mempelajari penggunaan cetak biru murni (*pure abstraction*) untuk mendukung pen
 * **`Smartphone.java`**: Kelas yang mengimplementasikan dua interface sekaligus (`AlatElektronik` dan `Kamera`), mensimulasikan pewarisan ganda di Java
 
 ---
-
-## 🚀 Cara Menjalankan Program
-
-1. Pastikan Anda telah memasang **Java Development Kit (JDK)** dan IDE (seperti IntelliJ IDEA, Eclipse, atau NetBeans) di komputer Anda.
-2. Buat struktur direktori atau proyek baru dan sesuaikan *package* menjadi `com.praktikum8`
-3. Salin file-file kode sesuai dengan struktur kegiatan di atas.
-4. Jalankan file utama (seperti `PoliTester.java`) untuk melihat hasil eksekusi dari polimorfisme dan implementasi OOP lainnya.
