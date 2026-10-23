@@ -6,9 +6,9 @@
 
 ## Tujuan Pembelajaran
 Setelah menyelesaikan modul ini, mahasiswa diharapkan mampu:
-1. Memahami dan mengimplementasikan konsep **Polymorphism** pada tingkat *runtime* (*Method Overriding*)[cite: 1].
-2. Merancang **Abstract Class** dan **Abstract Method** sebagai kerangka dasar hierarki kelas[cite: 1].
-3. Mengimplementasikan **Interface** untuk menciptakan kontrak arsitektur perangkat lunak dan menyimulasikan *multiple inheritance* (pewarisan ganda)[cite: 1].
+1. Memahami dan mengimplementasikan konsep **Polymorphism** pada tingkat *runtime* (*Method Overriding*)
+2. Merancang **Abstract Class** dan **Abstract Method** sebagai kerangka dasar hierarki kelas
+3. Mengimplementasikan **Interface** untuk menciptakan kontrak arsitektur perangkat lunak dan menyimulasikan *multiple inheritance* (pewarisan ganda)
 
 ---
 
@@ -29,7 +29,7 @@ Mempelajari cara membuat kelas kerangka dasar yang tidak dapat diinstansiasi sec
 ### 3. Kegiatan 3: Implementasi Interface (Multiple Implementation)
 Mempelajari penggunaan cetak biru murni (*pure abstraction*) untuk mendukung penerapan banyak kontrak antarmuka pada satu kelas
 * **`AlatElektronik.java`**: Interface yang mendefinisikan kontrak metode `nyalakan()` dan `matikan()`
-* **`Kamera.java`**: Interface kedua yang mendefinisikan kontrak metode `ambilFoto()`[cite: 3].
+* **`Kamera.java`**: Interface kedua yang mendefinisikan kontrak metode `ambilFoto()`
 * **`Smartphone.java`**: Kelas yang mengimplementasikan dua interface sekaligus (`AlatElektronik` dan `Kamera`), mensimulasikan pewarisan ganda di Java
 
 ---
