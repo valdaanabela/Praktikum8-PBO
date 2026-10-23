@@ -30,12 +30,25 @@ Mempelajari bagaimana sebuah metode dapat merespons secara berbeda tergantung pa
 ### 2. Kegiatan 2: Implementasi Abstract Class
 Mempelajari cara membuat kelas kerangka dasar yang tidak dapat diinstansiasi secara langsung namun wajib diimplementasikan oleh kelas turunannya
 * **`BangunDatar.java`**: Kelas abstrak yang memiliki atribut warna, metode konkret `cetakWarna()`, dan *abstract method* `hitungLuas()`
+* <img width="712" height="350" alt="Cuplikan layar 2026-10-23 234058" src="https://github.com/user-attachments/assets/5e2fbd79-cc83-4415-ba20-62625d885170" />
 * **`Lingkaran.java`**: Subclass dari `BangunDatar` yang wajib mengimplementasikan rumus perhitungan luas lingkaran
+* <img width="706" height="355" alt="Cuplikan layar 2026-10-23 234106" src="https://github.com/user-attachments/assets/4c4b14a9-fb0b-4c3c-bd53-42a4c74dcb16" />
+* **`TesBangunDatar.java`**: Kelas utama untuk menguji
+* <img width="686" height="188" alt="Cuplikan layar 2026-10-23 234128" src="https://github.com/user-attachments/assets/3d4b7d5f-c84c-49f4-b8e5-2cb177d0ff85" />
+* **`Output`**
+* <img width="347" height="106" alt="Cuplikan layar 2026-10-23 234138" src="https://github.com/user-attachments/assets/f89e6787-a507-4e76-9a0c-46c93beb9d0a" />
 
 ### 3. Kegiatan 3: Implementasi Interface (Multiple Implementation)
 Mempelajari penggunaan cetak biru murni (*pure abstraction*) untuk mendukung penerapan banyak kontrak antarmuka pada satu kelas
 * **`AlatElektronik.java`**: Interface yang mendefinisikan kontrak metode `nyalakan()` dan `matikan()`
+* <img width="688" height="128" alt="Cuplikan layar 2026-10-23 234433" src="https://github.com/user-attachments/assets/7953c88e-c7d8-4860-b36b-4705a4ef9734" />
 * **`Kamera.java`**: Interface kedua yang mendefinisikan kontrak metode `ambilFoto()`
+* <img width="682" height="111" alt="Cuplikan layar 2026-10-23 234442" src="https://github.com/user-attachments/assets/bcfe65a9-9ba1-4ef1-8e17-9b6802b6d037" />
 * **`Smartphone.java`**: Kelas yang mengimplementasikan dua interface sekaligus (`AlatElektronik` dan `Kamera`), mensimulasikan pewarisan ganda di Java
+* <img width="687" height="526" alt="Cuplikan layar 2026-10-23 234454" src="https://github.com/user-attachments/assets/5b787c83-1266-494c-8950-54284eb518ce" />
+* **`TesSmarthphone.java`**: Kelas utama untuk menguji
+* <img width="523" height="202" alt="Cuplikan layar 2026-10-23 234503" src="https://github.com/user-attachments/assets/374ec7b2-0453-4db9-93ee-96b6d0bb8bc3" />
+* **`Output`**
+* <img width="410" height="106" alt="Cuplikan layar 2026-10-23 234521" src="https://github.com/user-attachments/assets/05b93686-4fd7-423a-9c48-1c55f2c81585" />
 
 ---
